@@ -1,0 +1,156 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(Untitled\ design.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #060606;
+}
+#Nav{
+  border-bottom:  1px solid #7e7e80;
+  border-width: 5px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #e7e5e5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#Nav:hover{
+  transform:scale(1.1);
+  z-index: 2;
+}
+
+#Nav ul li{
+  list-style:none;
+  display: inline;
+  margin: 5px 0;
+  overflow: hidden;
+}
+
+li a{
+  text-decoration: none;
+  color: #268c2b;
+  transition: .5s;
+  padding: 5px;
+  scroll-behavior: smooth;
+  }
+
+a:hover{
+  background: #38b0e3;
+  color: #cf2626;
+}
+.topdiv{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  grid-gap: -25px;
+}
+
+.img{
+  width: 50%;
+  border-radius: 20px;
+}
+.img:hover{
+  transform:scale(1.3);
+  z-index: 2;
+}
+div p{
+  width: 120%;
+}
+
+.contents{
+  margin-left: 25px;
+}
+h1{
+  color: #6d0505;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  
+  
+}
+h1:hover{
+  transform: scale(1.3);
+  z-index: 2;
+}
+
+
+h2{
+  color: #6d0505;
+  margin-left: 25px;
+ 
+}
+
+p{
+  color: #fffdfd;
+  font-style: normal;
+  margin-left: 25px;
+  
+  
+}
+
+img{
+    position: relative;
+    left: 35%;
+}
+
+.Internet-and-WWW-comparisons{
+         margin: 25px;
+         border-collapse: collapse;
+}
+
+th{
+     border: 2px solid rgb(0, 179, 255);
+     background: rgb(3, 177, 251);
+}
+td{
+        text-align: center;
+        border: 2px solid rgb(0, 179, 255);
+        padding: 5px;   
+        background-color: rgb(150, 163, 178); 
+}
+#Diagram{
+        width: 40%;
+}
+.conclusion{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  width: 80%;
+ 
+}
+.pictures{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3em;
+  margin: 10px;
+}
+.boxpic{
+  border-style: hidden;
+  border-radius: 15px;
+}
+.boxpic:hover{
+  transform: scale(1.3);
+  z-index: 2
+}
+
+.history{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 45px;
+}
+.pictures p{
+ 
+  text-align: center;
+  color: #00ffc8;
+}
+:hover h3{
+  text-align: center;
+  color: aquamarine;
+  transform: scale(1.3);
+  z-index: 2;
+
+}
+
+
+      
+      
